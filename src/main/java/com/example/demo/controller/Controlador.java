@@ -76,15 +76,15 @@ public class Controlador {
 	public String Clientes(Model modelo) {
 		List<Clientes> clientes = new ArrayList<Clientes>();
 		clientes.add(new Clientes("567","Areli","Reyes","5576352810","areli@gmail.com","Gamadero"));
-		clientes.add(new Clientes("568","Juan","Sanchez","5598362075","juan@gmail.com","Ecatepec"));
+		clientes.add(new Clientes("568","Juan","Sánchez","5598362075","juan@gmail.com","Ecatepec"));
 		clientes.add(new Clientes("569","Juana","Posadas","3328493328","juana@gmail.com","San juan"));
-		clientes.add(new Clientes("570","Valeria","Perez","5501253855","valeria@gmail.com","Impulsora"));
-		clientes.add(new Clientes("571","Ernesto","Gutierrez","5569574634","ernesto@gmail.com","Olimpica"));
-		clientes.add(new Clientes("572","Araceli","Gonzalez","550538411","araceli@gmail.com","Gamadero"));
-		clientes.add(new Clientes("573","Alfredo","Perez","5564839200","alfredo@gmail.com","Ecatepec"));
+		clientes.add(new Clientes("570","Valeria","Pérez","5501253855","valeria@gmail.com","Impulsora"));
+		clientes.add(new Clientes("571","Ernesto","Fernández","5569574634","ernesto@gmail.com","Olimpica"));
+		clientes.add(new Clientes("572","Araceli","González","550538411","araceli@gmail.com","Gamadero"));
+		clientes.add(new Clientes("573","Alfredo","Pérez","5564839200","alfredo@gmail.com","Ecatepec"));
 		clientes.add(new Clientes("574","Damaris","Gallardo","3384665836","damaris@gmail.com","San juan"));
-		clientes.add(new Clientes("575","Ana","Jimenez","5512345687","ana@gmail.com","Impulsora"));
-		clientes.add(new Clientes("576","Francisca","Fernandez","3392837465","francisca@gmail.com","Olimpica"));
+		clientes.add(new Clientes("575","Ana","Jiménez","5512345687","ana@gmail.com","Impulsora"));
+		clientes.add(new Clientes("576","Francisca","Fernández","3392837465","francisca@gmail.com","Olimpica"));
 		modelo.addAttribute("clientes",clientes);
 		return "Clientes";
 	}
